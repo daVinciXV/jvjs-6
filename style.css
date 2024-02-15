@@ -227,10 +227,14 @@ button:hover {
 
 }
 
+footer {
+  background-color: black;
+}
+
 .info {}
 
 .finalword {
-  padding: 20px;
+  padding: 10px;
 }
 
 .copyright {
