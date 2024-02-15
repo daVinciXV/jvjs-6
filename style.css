@@ -1,0 +1,247 @@
+* body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* .ex {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+} */
+
+/* HEADER */
+header {
+  background-image: url("Sources/OldSchoolPorsche.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+nav {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  flex-direction: row;
+
+}
+
+.logo {
+  display: flex;
+  margin: 10px 10px;
+}
+
+nav ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin: 0px 20px;
+
+}
+
+nav ul li {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  color: rgb(36, 13, 34);
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+nav ul li a:hover {
+  color: rgb(32, 6, 27);
+  text-transform: uppercase;
+  text-decoration: underline dotted gray;
+  font-size: 26px;
+  transition: 1sec;
+}
+
+/*Main*/
+
+.cars {
+  display: flex;
+  flex-direction: row;
+}
+
+.cars img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  flex: 1;
+}
+
+.text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.first {
+  font-weight: bold;
+  font-size: 40px;
+  font-style: italic;
+  background-color: gray;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+}
+
+
+.contain {
+  display: flex;
+  font-style: italic;
+  text-align: center;
+  font-size: 30px;
+  background-color: gray;
+  padding: 10px;
+}
+
+.contain p {
+  margin: 5px 5px;
+}
+
+.quest {
+  display: flex;
+}
+
+.quest h2 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  font-size: 40px;
+  font-style: italic;
+  background-color: gray;
+  padding: 10px;
+}
+
+.button {
+  background-color: #04AA6D;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/* CSS */
+
+.bttn {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: gray;
+  padding: 20px;
+}
+
+button {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+
+}
+
+button:hover:after {
+  transform: translate(0, 0);
+}
+
+button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+button:hover {
+  outline: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lastpic {
+  display: flex;
+  flex-direction: row;
+}
+
+.lastpic img {
+  flex: 1;
+  object-fit: cover;
+}
+
+.firstrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo2 img {
+  width: 200px;
+  height: 150px;
+  padding: 10px;
+
+}
+
+.info {}
+
+.finalword {
+  padding: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* @media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+} */
